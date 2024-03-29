@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #f3eff5;
+    overflow: hidden;
+}
+
+header {
+    width: 98%;
+    padding: 25px;
+    margin: 25px auto;
+    background: #38b000;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    width: 96%;
+    height: 80%;
+    background-color: #dce1de;
+    border-radius: 20px;
+    margin: auto;
+    border: 2px solid #38b000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main div span {
+    font-family: "Fira Code", serif;
+    font-size: 70px;
+}
+
+main div button {
+    font-size: 25px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.start {
+    background: #6ede8a;
+    transition: .5s all ease;
+}
+
+.start:hover {
+    transform: translateY(-10px);
+    background: #8ef0a7;
+}
+
+.restart {
+    background: #ffb800;
+    transition: .5s all ease;
+}
+
+.restart:hover {
+    background: #ffc124;
+    transform: translateY(-10px);
+}
